@@ -11,7 +11,7 @@ spec:
        app: weshopify-app-db-pod
    spec: 
     volumes: 
-     - name: weshopify-app-db-volume
+     - name: weshpify-app-db-volume
        persistentVolumeClaim: 
         claimName: weshopify-db-pvc
     containers: 
